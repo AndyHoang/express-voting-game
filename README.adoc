@@ -6,7 +6,7 @@ toc::[]
 == Why this?
 
 A practicing project about express 4 + jade + db +
-Nothing special about this \^_\^ +
+Nothing special about this \^_^ +
 Study by following this http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[Tut]
 
 == Requirement
