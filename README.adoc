@@ -1,14 +1,17 @@
 = Voting game
 :toc:
+:toc-placement!:
+
+toc::[]
 == Why this?
 
 A practicing project about express 4 + jade + db +
-Nothing special about this ^_^ +
-I just follow this http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[Tut]
+Nothing special about this \^_\^ +
+Study by following this http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[Tut]
 
 == Requirement
-My env:
-*Node *0.10.36*
+My env: +
+*Node *0.10.36* +
 *npm *1.4.28*
 
 == Build
@@ -19,4 +22,4 @@ npm start
 ....
 
 == Source
-http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[orignal topic]
+http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[Orignal Topic]
