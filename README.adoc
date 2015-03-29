@@ -11,8 +11,8 @@ Study by following this http://tutorialzine.com/2014/01/nodejs-picture-voting-ga
 
 == Requirement
 My env: +
-*Node *0.10.36* +
-*npm *1.4.28*
+* Node *0.10.36* +
+* npm *1.4.28*
 
 == Build
 [source]
