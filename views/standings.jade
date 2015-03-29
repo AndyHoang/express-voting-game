@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  nav
+    a(href='./') Game
+    a.active(href='./standings') Standings
+    if standings
+      ul
+        each standing in standings
+          li
+            img(src='/images/photos/#{standing.name}')
+            p.up #{standing.likes}
+            p.down #{standing.dislikes}

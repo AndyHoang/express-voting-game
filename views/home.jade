@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  nav
+    a.active(href='./') Game
+    a(href='./standings') Standings
+  if photo
+    img(src='images/photos/#{photo.name}' class='onShow')
+    .button-holder
+      -var photoName = photo.name
+      form(action='./cute', method='post')
+        input(type='hidden', name ='photo', value=photoName)
+        input(type='submit', value='Cute!')
+      form(action='./notcute', method='post')
+        input(type='hidden', name ='photo', value=photoName)
+        input(type='submit', value='Note Cute!')
+  else
+    <h3>No more photos to vote on! Check out the <a href="./standings">standings</a>.</h3>
