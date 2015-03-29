@@ -1,0 +1,22 @@
+= Voting game
+:toc:
+== Why this?
+
+A practicing project about express 4 + jade + db +
+Nothing special about this ^_^ +
+I just follow this http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[Tut]
+
+== Requirement
+My env:
+*Node *0.10.36*
+*npm *1.4.28*
+
+== Build
+[source]
+....
+npm install
+npm start
+....
+
+== Source
+http://tutorialzine.com/2014/01/nodejs-picture-voting-game-part-2/[orignal topic]
